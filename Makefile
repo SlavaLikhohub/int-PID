@@ -7,7 +7,7 @@ INCDIRS = ./include
 
 SRCS = int_PID.c
 
-BUILDDIR = .build/
+BUILDDIR = .build
 
 AR ?= ar
 CC ?= gcc

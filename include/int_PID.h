@@ -62,4 +62,17 @@ enum pid_errors
     PIN_NULL_PTR_ERROR
 };
 
+/** Debug information */
+struct pid_dbg_info
+{
+    int_type P;
+    int_type I;
+    int_type D;
+    int_type interval;
+};
+
+enum pid_errors pid_init(struct int_pid *pid);
+
+struct pid_dbg_info pid_update(struct int_pid *pid);
+
 #endif // _INT_PID_H_
