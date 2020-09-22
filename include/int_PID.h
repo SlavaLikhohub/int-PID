@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-typedef int32_t int_type;
+typedef int64_t int_type;
 
 /** Struct for storing data about regulator */
 struct int_pid
